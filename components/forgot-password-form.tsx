@@ -35,7 +35,7 @@ export function ForgotPasswordForm() {
         </div>
 
         <Button
-          className="w-full py-6 text-base font-medium"
+          className="w-full cursor-pointer py-6 text-base font-medium"
           onClick={() => setSubmitted(false)}
         >
           Resend email
@@ -85,7 +85,7 @@ export function ForgotPasswordForm() {
           />
         </div>
 
-        <Button type="submit" className="w-full py-6 text-base font-medium">
+        <Button type="submit" className="w-full cursor-pointer py-6 text-base font-medium">
           Send reset link
         </Button>
       </form>

@@ -81,7 +81,7 @@ export function LoginForm() {
         <div className="relative">
           <Button
             variant="outline"
-            className="relative w-full justify-center gap-3 border-border bg-card py-6 text-card-foreground transition-all hover:border-muted-foreground/30 hover:bg-secondary hover:shadow-sm"
+            className="relative w-full cursor-pointer justify-center gap-3 border-border bg-card py-6 text-card-foreground transition-all hover:border-muted-foreground/30 hover:bg-secondary hover:shadow-sm"
             onClick={() => handleLogin("google")}
           >
             <GoogleIcon className="h-5 w-5" />
@@ -93,7 +93,7 @@ export function LoginForm() {
         <div className="relative">
           <Button
             variant="outline"
-            className="relative w-full justify-center gap-3 border-border bg-card py-6 text-card-foreground transition-all hover:border-muted-foreground/30 hover:bg-secondary hover:shadow-sm"
+            className="relative w-full cursor-pointer justify-center gap-3 border-border bg-card py-6 text-card-foreground transition-all hover:border-muted-foreground/30 hover:bg-secondary hover:shadow-sm"
             onClick={() => handleLogin("github")}
           >
             <GitHubIcon className="h-5 w-5" />
@@ -167,7 +167,7 @@ export function LoginForm() {
 
         <Button
           type="submit"
-          className="w-full py-6 text-base font-medium"
+          className="w-full cursor-pointer py-6 text-base font-medium"
         >
           Login
         </Button>

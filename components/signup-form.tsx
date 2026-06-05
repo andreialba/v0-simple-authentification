@@ -59,7 +59,7 @@ export function SignupForm() {
       <div className="space-y-3">
         <Button
           variant="outline"
-          className="w-full justify-center gap-3 border-border bg-card py-6 text-card-foreground transition-all hover:border-muted-foreground/30 hover:bg-secondary hover:shadow-sm"
+          className="w-full cursor-pointer justify-center gap-3 border-border bg-card py-6 text-card-foreground transition-all hover:border-muted-foreground/30 hover:bg-secondary hover:shadow-sm"
         >
           <GoogleIcon className="h-5 w-5" />
           Sign up with Google
@@ -67,7 +67,7 @@ export function SignupForm() {
 
         <Button
           variant="outline"
-          className="w-full justify-center gap-3 border-border bg-card py-6 text-card-foreground transition-all hover:border-muted-foreground/30 hover:bg-secondary hover:shadow-sm"
+          className="w-full cursor-pointer justify-center gap-3 border-border bg-card py-6 text-card-foreground transition-all hover:border-muted-foreground/30 hover:bg-secondary hover:shadow-sm"
         >
           <GitHubIcon className="h-5 w-5" />
           Sign up with GitHub
@@ -137,7 +137,7 @@ export function SignupForm() {
           />
         </div>
 
-        <Button type="submit" className="w-full py-6 text-base font-medium">
+        <Button type="submit" className="w-full cursor-pointer py-6 text-base font-medium">
           Create account
         </Button>
       </form>
